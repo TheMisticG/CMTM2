@@ -1,8 +1,9 @@
 tb {
     border-left: 4px solid #977231;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 p {
-    border-left: 4px solid #335d88
+    border-left: 4px solid #335d88;
+    padding-left: 5px;
 }
