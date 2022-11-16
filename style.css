@@ -16,19 +16,19 @@ h3 {
     margin: auto;
     width: 85%;
     height: 85%;
-    border: 4px solid #5b5b5b;
+    margin-top: 0px;
+    border: solid #5b5b5b;
+    border-width: 2px;
     border-radius: 20px;
-    align: center;
     max-width: 800px;
     max-height: 800px;
-    transition-property: width, height, border-color;
+    transition-property: border-width, border-color;
     transition-duration: 2s;
     transition-timing-function: ease-out;
 }
 
 .founderimg:hover {
-    width: 80%;
-    height: 80%;
+    border-width: 6px;
     border-color: orange;
 }
 
@@ -46,6 +46,13 @@ h3 {
 
 .specialblueborder {
     border-color: #6c6cff;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.specialblueborder:hover {
+    background-color: #b6dbff;
 }
 
 p {
