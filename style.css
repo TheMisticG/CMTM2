@@ -19,8 +19,8 @@ h3 {
     border: 4px solid #5b5b5b;
     border-radius: 20px;
     align: center;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 800px;
+    max-height: 800px;
 }
 
 .tb {
@@ -47,7 +47,13 @@ p {
 }
 
 .div1 {
-    border-top: 4px solid black;
+    border-bottom: 2px solid black;
     width: 50%;
+    height: 10px;
     margin: auto;
+    border-radius: 40px;
+}
+
+.emptydivspace {
+    height: 20px;
 }
