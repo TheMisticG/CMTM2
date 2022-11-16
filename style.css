@@ -90,7 +90,7 @@ h3 {
     width: 80%;
 }
 
-p {
+.p {
     border-left: 4px solid #335d88;
     padding-left: 5px;
     font-size: 20px;
@@ -109,6 +109,12 @@ p:hover {
     margin: auto;
     border-radius: 40px;
     transition: 250ms all ease-in-out;
+    color: white;
+    text-align: center;
+}
+
+.sd {
+    transform: translateY(-10px);
 }
 
 .div1:hover {
