@@ -47,7 +47,7 @@ h3 {
     max-width: 800px;
     max-height: 800px;
     transition-property: all;
-    transition-duration: 2s;
+    transition-duration: 250ms;
     transition-timing-function: ease-out;
 }
 
