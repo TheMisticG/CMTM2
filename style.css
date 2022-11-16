@@ -34,3 +34,9 @@ p {
     font-size: 25px;
     border-radius: 8px;
 }
+
+.div1 {
+    border-top: 4px solid black;
+    width: 50%;
+    margin: auto;
+}
