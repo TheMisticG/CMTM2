@@ -1,6 +1,19 @@
-tb {
+/*CSS*/
+
+.tb {
     border-left: 4px solid #977231;
     padding-left: 10px;
+}
+
+.roundborder {
+    border: 2px solid #575757;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.specialblueborder {
+    border-color: #6c6cff;
 }
 
 p {
