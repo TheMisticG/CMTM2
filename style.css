@@ -1,5 +1,10 @@
 /*CSS*/
 
+body{
+    background-color: #353535;
+    color: white;
+}
+
 h1 {
     font-size: 40px;
 }
@@ -12,6 +17,25 @@ h3 {
     font-size: 30px;
 }
 
+.magicblur {
+    filter: blur(5px);
+    transition: 500ms all ease-in-out;
+}
+
+.magicborder {
+    border-color: #575757;
+    transition: 2s all ease-in-out;
+}
+
+.magicborder:hover {
+    border-color: #fbff00;
+}
+
+.magicblur:hover {
+    filter: blur(0px);
+    transform: rotate(2deg);
+}
+
 .founderimg {
     margin: auto;
     width: 85%;
@@ -22,7 +46,7 @@ h3 {
     border-radius: 20px;
     max-width: 800px;
     max-height: 800px;
-    transition-property: border-width, border-color;
+    transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-out;
 }
@@ -35,6 +59,11 @@ h3 {
 .tb {
     border-left: 4px solid #977231;
     padding-left: 10px;
+    transition: 250ms all ease-out;
+}
+
+.tb:hover {
+    border-left: 2px solid #8cadff;
 }
 
 .roundborder {
@@ -49,13 +78,13 @@ h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    transition-property: width, background-color;
+    transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-out;
 }
 
-.specialblueborder:hover {
-    background-color: #b6dbff;
+.specialblueborder:hover, .specialblueborder:focus-visible {
+    background-color: #274461;
     width: 80%;
 }
 
@@ -64,14 +93,24 @@ p {
     padding-left: 5px;
     font-size: 20px;
     border-radius: 8px;
+    transition: 500ms all ease-in-out;
+}
+
+p:hover {
+    border-color: #f99eff;
 }
 
 .div1 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #ffffff;
     width: 50%;
     height: 10px;
     margin: auto;
     border-radius: 40px;
+    transition: 250ms all ease-in-out;
+}
+
+.div1:hover {
+    transform: translateY(2px);
 }
 
 .emptydivspace {
