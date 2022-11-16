@@ -1,5 +1,17 @@
 /*CSS*/
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .tb {
     border-left: 4px solid #977231;
     padding-left: 10px;
@@ -19,6 +31,6 @@
 p {
     border-left: 4px solid #335d88;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 8px;
 }
