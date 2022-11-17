@@ -91,7 +91,7 @@ h3 {
 .specialblueborder:hover, .specialblueborder:focus-visible {
     background-color: #ffffff;
     color: black;
-    transform: rotate(4deg);
+    transform: rotate(2deg);
     width: 80%;
 }
 
