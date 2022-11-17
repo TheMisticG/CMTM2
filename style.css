@@ -210,11 +210,13 @@ p:hover {
 
 .numero {
     color: #2c2c2c;
-    border-bottom: 2px solid gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 4px;
     transition: 500ms all ease-in-out;
 }
 
 .numero:hover {
     color: #ffffff;
-    border-bottom: 2px solid lime;
+    border: 2px solid lime;
 }
