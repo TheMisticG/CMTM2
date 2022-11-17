@@ -13,6 +13,15 @@
     }
 }
 
+@keyframes founderimgan {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
 body{
     background-color: #353535;
     color: white;
@@ -56,19 +65,18 @@ h3 {
     height: 85%;
     margin-top: 0px;
     border: solid #5b5b5b;
-    border-width: 2px;
+    border-width: 6px;
     border-radius: 100%;
     max-width: 800px;
     max-height: 800px;
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: ease-out;
+    animation: founderimgan alternate infinite 10s ease-in-out;
 }
 
 .founderimg:hover {
-    border-width: 6px;
     border-color: orange;
-    transform: rotate(-2deg);
 }
 
 .tb {
