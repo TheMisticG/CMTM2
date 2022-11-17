@@ -31,6 +31,7 @@ h3 {
 
 .magicborder:hover {
     border-color: #fbff00;
+    background-color: #636300;
 }
 
 .magicblur:hover {
@@ -86,11 +87,10 @@ h3 {
     transition-timing-function: ease-out;
 }
 
-.specialblueborder:hover, .specialblueborder:focus-visible {
+.specialblueborder:hover {
     background-color: #daecff;
     color: black;
     width: 80%;
-    transform: rotate(1deg);
 }
 
 .p {
