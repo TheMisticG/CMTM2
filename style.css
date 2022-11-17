@@ -220,3 +220,22 @@ p:hover {
     color: #ffffff;
     border: 2px solid lime;
 }
+
+.finaltable {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+}
+
+.finaltable-td-g {
+    width: 10%;
+    border: 2px solid gray;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.finaltable-td-g:hover {
+    background-color: #6a98a0;
+    width: 80%;
+}
+
