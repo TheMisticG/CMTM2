@@ -222,13 +222,13 @@ p:hover {
 }
 
 .finaltable {
-    width: 90%;
+    width: 450px;
     height: 80px;
     margin: auto;
 }
 
 .finaltable-td-g {
-    width: 10%;
+    width: 2px;
     border: 2px solid #ffffff;
     border-radius: 50px;
     will-change: all;
@@ -238,7 +238,7 @@ p:hover {
 
 .finaltable-td-g:hover {
     background-color: #ffffff;
-    width: 80%;
+    width: 100px;
     transition: all 500ms ease-in-out;
 }
 
