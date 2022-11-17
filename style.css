@@ -231,11 +231,14 @@ p:hover {
     width: 10%;
     border: 2px solid #ffffff;
     border-radius: 50px;
-    transition: all 1s ease-in-out;
+    will-change: all;
+    transition: all 10s ease-in-out;
+    transition-delay: 5s;
 }
 
 .finaltable-td-g:hover {
     background-color: #ffffff;
     width: 80%;
+    transition: all 500ms ease-in-out;
 }
 
