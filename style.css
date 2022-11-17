@@ -57,7 +57,7 @@ h3 {
     margin-top: 0px;
     border: solid #5b5b5b;
     border-width: 2px;
-    border-radius: 20px;
+    border-radius: 100%;
     max-width: 800px;
     max-height: 800px;
     transition-property: all;
