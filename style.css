@@ -229,13 +229,13 @@ p:hover {
 
 .finaltable-td-g {
     width: 10%;
-    border: 2px solid gray;
+    border: 2px solid #ffffff;
     border-radius: 50px;
     transition: all 1s ease-in-out;
 }
 
 .finaltable-td-g:hover {
-    background-color: #6a98a0;
+    background-color: #ffffff;
     width: 80%;
 }
 
