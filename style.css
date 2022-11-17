@@ -79,6 +79,7 @@ h3 {
 
 .specialblueborder {
     border-color: #6c6cff;
+    border-width: 3px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -89,6 +90,7 @@ h3 {
 
 .specialblueborder:hover {
     background-color: #daecff;
+    border-color: #6aa3ab;
     color: black;
     width: 80%;
 }
@@ -159,6 +161,7 @@ p:hover {
 .discord-div:hover {
     width: 500px;
     background-color: #213d5a;
+    border-color: #6c6cff;
 }
 
 .discord-div-img {
