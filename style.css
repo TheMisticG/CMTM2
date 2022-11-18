@@ -1,5 +1,7 @@
 /*CSS*/
 
+body.js-stop-transition * { transition:none !important; }
+
 @keyframes firsttitle {
     0% {width: 95%;}
     50% {
