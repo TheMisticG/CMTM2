@@ -77,6 +77,7 @@ h3 {
 
 .founderimg:hover {
     border-color: orange;
+    box-shadow: 0px 0px 50px 5px orange;
 }
 
 .tb {
@@ -109,9 +110,10 @@ h3 {
 
 .specialblueborder:hover {
     background-color: #daecff;
-    border-color: #6aa3ab;
+    border-color: #daecff;
     color: black;
     width: 90%;
+    box-shadow: 0px 0px 40px 2px #daecff;
 }
 
 .p {
@@ -181,6 +183,7 @@ p:hover {
     width: 500px;
     background-color: #213d5a;
     border-color: #6c6cff;
+    box-shadow: 0px 0px 30px 1px #6c6cff;
 }
 
 .discord-div-img {
