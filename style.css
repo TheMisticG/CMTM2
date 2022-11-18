@@ -258,6 +258,7 @@ p:hover {
 
 .separator {
     width: 900px;
+    max-width: 98%;
     height: 20px;
     margin: auto;
 }
