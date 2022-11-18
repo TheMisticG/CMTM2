@@ -231,6 +231,7 @@ p:hover {
 
 .finaltable {
     width: 900px;
+    max-width: 98%;
     height: 80px;
     margin: auto;
 }
