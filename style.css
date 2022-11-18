@@ -212,6 +212,8 @@ p:hover {
 
 #imgoriginale:hover {
     transform: rotate(0deg);
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
 }
 
 .numero {
