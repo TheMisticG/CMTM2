@@ -220,15 +220,14 @@ p:hover {
 
 .numero {
     color: #353535;
-    border: 2px solid gray;
     border-radius: 10px;
     padding: 4px;
     transition: 500ms all ease-in-out;
 }
 
 .numero:hover {
-    color: #ffffff;
-    border: 2px solid lime;
+    color: lime;
+    text-shadow: 0 0 10px lime;
 }
 
 .finaltable {
