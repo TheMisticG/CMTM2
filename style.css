@@ -197,15 +197,6 @@ p:hover {
     max-width: 20px;
 }
 
-.events {
-    color: white;
-    transition: 250ms all ease-in-out;
-}
-
-.events:hover {
-    color: #ffa3e3;
-}
-
 #imgoriginale {
     transform: rotate(2deg);
     font-size: 30px;
