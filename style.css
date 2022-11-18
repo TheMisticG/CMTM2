@@ -240,9 +240,13 @@ p:hover {
 }
 
 .finaltable-td-g:hover {
-    background-color: #a7ffe3;
+    background-color: #0b0036;
     width: 300px;
     transition: all 500ms ease-in-out;
-    box-shadow: 0px 0px 30px 1px #a7ffe3;
+    box-shadow:
+        -10px 0px 40px 2px #3300ff,
+        10px 0px 40px 2px magenta,
+        inset -8px -2px 40px 2px #3300ff,
+        inset 8px 2px 40px 2px magenta;
 }
 
