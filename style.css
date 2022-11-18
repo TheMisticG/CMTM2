@@ -254,8 +254,8 @@ p:hover {
     box-shadow:
         -10px 0px 40px 2px #3300ff,
         10px 0px 40px 2px magenta,
-        inset -8px -2px 40px 2px #3300ff,
-        inset 8px 2px 40px 2px magenta;
+        inset 8px -2px 40px 2px #3300ff,
+        inset -8px 2px 40px 2px magenta;
 }
 
 .separator {
