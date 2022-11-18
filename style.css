@@ -93,6 +93,7 @@ h3 {
 
 .tb:hover {
     border-left: 2px solid #8cadff;
+    text-shadow: 0 0 20px white;
 }
 
 .roundborder {
