@@ -255,3 +255,28 @@ p:hover {
         inset 8px 2px 40px 2px magenta;
 }
 
+.separator {
+    width: 900px;
+    height: 20px;
+    margin: auto;
+}
+
+.separator-g {
+    width: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    will-change: all;
+    transition: all 10s ease-in-out;
+    transition-delay: 1s;
+}
+
+.separator-g:hover {
+    background-color: #0b0036;
+    width: 300px;
+    transition: all 500ms ease-in-out;
+    box-shadow:
+        -10px 0px 40px 2px #3300ff,
+        10px 0px 40px 2px magenta,
+        inset -8px -2px 40px 2px #3300ff,
+        inset 8px 2px 40px 2px magenta;
+}
