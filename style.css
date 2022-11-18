@@ -282,3 +282,8 @@ p:hover {
         inset -8px -2px 40px 2px #3300ff,
         inset 8px 2px 40px 2px magenta;
 }
+
+.calendar {
+    max-width: 90%;
+    max-height: 400px;
+}
