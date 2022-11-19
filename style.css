@@ -229,6 +229,7 @@ p:hover {
     max-width: 98%;
     height: 80px;
     margin: auto;
+    border-spacing: 5px;
 }
 
 .finaltable-td-g {
