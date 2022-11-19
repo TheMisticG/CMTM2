@@ -107,6 +107,7 @@ h3 {
     border-color: #6c6cff;
     border-width: 3px;
     width: 80%;
+    max-width: 98%;
     margin-left: auto;
     margin-right: auto;
     transition-property: all;
@@ -175,6 +176,7 @@ p:hover {
     color: rgb(126, 176, 255);
     max-height: 200px;
     width: 400px;
+    max-width: 98%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
