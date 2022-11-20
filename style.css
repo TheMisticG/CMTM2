@@ -257,6 +257,8 @@ p:hover {
     max-width: 98%;
     height: 20px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .separator-g {
@@ -282,4 +284,13 @@ p:hover {
 .calendar {
     max-width: 90%;
     max-height: 400px;
+}
+
+.codeinfos {
+    color: lime;
+    transition: 250ms all ease-in-out;
+}
+
+.codeinfos:hover {
+    text-shadow: 0 0 10px lime;
 }
