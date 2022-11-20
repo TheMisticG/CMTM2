@@ -319,29 +319,34 @@ p:hover {
     transition: 250ms all ease-in-out;
 }
 
+.newbie1:hover {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
+
 .beginner1:hover {
-    color: pink;
-    text-shadow: 0 0 10px pink;
+    color: #ff5e00;
+    text-shadow: 0 0 10px #ff5e00;
 }
 
 .intermediate1:hover {
-    color: yellow;
-    text-shadow: 0 0 10px yellow;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
 }
 
 .advanced1:hover {
-    color: lime;
-    text-shadow: 0 0 10px lime;
+    color: #ddff00;
+    text-shadow: 0 0 10px #ddff00;
 }
 
 .fluent1:hover {
-    color: #6c6cff;
-    text-shadow: 0 0 10px #6c6cff;
+    color: #6cff73;
+    text-shadow: 0 0 10px #6cff73;
 }
 
 .expert1:hover {
-    color: orange;
-    text-shadow: 0 0 10px orange;
+    color: #00ffea;
+    text-shadow: 0 0 10px #00ffea;
 }
 
 /* Finish of "Coding Experiences" */
