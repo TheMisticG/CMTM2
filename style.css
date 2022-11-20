@@ -52,6 +52,12 @@ body{
     margin-right: 2%;
 }
 
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 h1 {
     font-size: 40px;
 }
@@ -306,12 +312,36 @@ p:hover {
     max-height: 400px;
 }
 
+/* Coding Experiences */
+
 .codeinfos {
     color: #828282;
     transition: 250ms all ease-in-out;
 }
 
-.codeinfos:hover {
+.beginner1:hover {
+    color: pink;
+    text-shadow: 0 0 10px pink;
+}
+
+.intermediate1:hover {
     color: yellow;
     text-shadow: 0 0 10px yellow;
 }
+
+.advanced1:hover {
+    color: lime;
+    text-shadow: 0 0 10px lime;
+}
+
+.fluent1:hover {
+    color: #6c6cff;
+    text-shadow: 0 0 10px #6c6cff;
+}
+
+.expert1:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+/* Finish of "Coding Experiences" */
