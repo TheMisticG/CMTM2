@@ -316,37 +316,45 @@ p:hover {
 
 .codeinfos {
     color: #828282;
-    transition: 250ms all ease-in-out;
+    will-change: all;
+    transition: 5s all ease-in-out;
+    transition-delay: 10s;
 }
 
 .newbie1:hover {
     color: #ff0000;
     text-shadow: 0 0 10px #ff0000;
+    transition: 100ms all ease-in-out;
 }
 
 .beginner1:hover {
     color: #ff5e00;
     text-shadow: 0 0 10px #ff5e00;
+    transition: 100ms all ease-in-out;
 }
 
 .intermediate1:hover {
     color: #ffcc00;
     text-shadow: 0 0 10px #ffcc00;
+    transition: 100ms all ease-in-out;
 }
 
 .advanced1:hover {
     color: #ddff00;
     text-shadow: 0 0 10px #ddff00;
+    transition: 100ms all ease-in-out;
 }
 
 .fluent1:hover {
     color: #6cff73;
     text-shadow: 0 0 10px #6cff73;
+    transition: 100ms all ease-in-out;
 }
 
 .expert1:hover {
     color: #00ffea;
     text-shadow: 0 0 10px #00ffea;
+    transition: 100ms all ease-in-out;
 }
 
 /* Finish of "Coding Experiences" */
