@@ -24,6 +24,26 @@ body.js-stop-transition * { transition:none !important; }
     }
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+    background: #323232;
+}
+
+::-webkit-scrollbar-track {
+    background: #323232;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #575757;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bb00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #bb00ff;
+}
+
 body{
     /*background-color: #353535;*/
     background: linear-gradient(-45deg, #0e0e0e, #353535);
@@ -287,10 +307,11 @@ p:hover {
 }
 
 .codeinfos {
-    color: lime;
+    color: #828282;
     transition: 250ms all ease-in-out;
 }
 
 .codeinfos:hover {
-    text-shadow: 0 0 10px lime;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
 }
