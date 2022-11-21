@@ -48,8 +48,6 @@ body{
     /*background-color: #353535;*/
     background: linear-gradient(-45deg, #0e0e0e, #353535);
     color: white;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .prevent-select {
