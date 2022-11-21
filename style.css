@@ -155,12 +155,6 @@ h3 {
     box-shadow: 0px 0px 40px 2px #daecff;
 }
 
-.blueopen {
-    background: rgb(0, 73, 0);
-    box-shadow: 0 0 20px 1px lime;
-    border-color: lime;
-}
-
 .p {
     border-left: 4px solid #335d88;
     padding-left: 5px;
