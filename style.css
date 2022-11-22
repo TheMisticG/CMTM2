@@ -231,8 +231,16 @@ p:hover {
     max-width: 20px;
 }
 
-#imgoriginale {
+#imgoriginaleh {
     transform: rotate(2deg);
+    transition: 500ms all ease-in-out;
+}
+
+#imgoriginaleh:hover {
+    transform: rotate(0deg);
+}
+
+#imgoriginale {
     font-size: 30px;
     color: white;
     transition: 500ms all ease-in-out;
