@@ -162,6 +162,7 @@ h3 {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 40px;
     will-change: all;
     transition: all 2s ease-in-out;
     transition-delay: 10s;
