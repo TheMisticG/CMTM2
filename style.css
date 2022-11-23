@@ -147,6 +147,26 @@ h3 {
     transition-timing-function: ease-out;
 }
 
+.specialclock {
+    border-color: #6c6cff;
+    border-width: 3px;
+    width: 140px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.specialclock:hover {
+    background-color: #a1ffe6;
+    border-color: #a1ffe6;
+    color: black;
+    width: calc(140px + 5%);
+    box-shadow: 0px 0px 40px 2px #a1ffe6;
+}
+
 .specialblueborder:hover {
     background-color: #daecff;
     border-color: #daecff;
