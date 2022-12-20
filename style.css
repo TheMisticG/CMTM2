@@ -395,3 +395,22 @@ p:hover {
 }
 
 /* Finish of "Coding Experiences" */
+
+#S {
+	color: #ffb97b;
+	text-shadow: 0px 0px 30px #c9945f;
+}
+
+#H, #M, #D {
+	color: white;
+}
+
+.countdown {
+	font-size: 60px;
+	color: #5f5f5f;
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
