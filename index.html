@@ -5,127 +5,127 @@
 
 <html>
 
-    <head>
-        <title>MisticG</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
+	<head>
+		<title>MisticG</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
 
-    <body class="prevent-select" onload="startTime()">
-        <script>document.body.classList.remove('js-stop-transition')</script>
-        <script src="script.js"></script>
+	<body class="prevent-select" onload="startTime()">
+		<script>document.body.classList.remove('js-stop-transition')</script>
+		<script src="script.js"></script>
 
-        <script>
-            document.addEventListener('contextmenu', event => event.preventDefault());
-            document.onkeydown = function(e) {
-                if(event.keyCode == 123) {
-                    return false;
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
-                    return false;
-                }
-            }
-        </script>
-        <h1 class="roundborder magicborder" style="color:white;" onclick="welcomeFunc()">MisticG Official Website (Click)<br/></h1>
-        <h3 id="discordinfo" class="roundborder specialblueborder" onclick="discordinfo()"><span><img src="imgs/discord-logo-png-7622.png" class="discord-div-img"/> </span>Discord: MisticG#4211 (Click)</h3>
-        <div class="discord-div" style="margin-bottom: 30px;">
-            <div class="discord-div-img" style="transform: translateY(-5px);">
-                <img src="imgs/discord-logo-png-7622.png" alt="Discord Logo" style="width: 30px"; height="30px";/>
-            </div>
-            <div>
-                <p class="p" style="margin-left: 20px;">
-                    Discord: <a href="https://discord.gg/GfW5fQ9YKm" class="links">Click to Join!</a>
-                </p>
-            </div>
-        </div>
-        <h1 id="clock" class="roundborder specialclock">00:00</h1>
+		<script>
+			document.addEventListener('contextmenu', event => event.preventDefault());
+			document.onkeydown = function(e) {
+				if(event.keyCode == 123) {
+					return false;
+				}
+				if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+					return false;
+				}
+				if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+					return false;
+				}
+				if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+					return false;
+				}
+				if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+					return false;
+				}
+			}
+		</script>
+		<h1 class="roundborder magicborder" style="color:white;" onclick="welcomeFunc()">MisticG Official Website (Click)<br/></h1>
+		<h3 id="discordinfo" class="roundborder specialblueborder" onclick="discordinfo()"><span><img src="imgs/discord-logo-png-7622.png" class="discord-div-img"/> </span>Discord: MisticG#4211 (Click)</h3>
+		<div class="discord-div" style="margin-bottom: 30px;">
+			<div class="discord-div-img" style="transform: translateY(-5px);">
+				<img src="imgs/discord-logo-png-7622.png" alt="Discord Logo" style="width: 30px"; height="30px";/>
+			</div>
+			<div>
+				<p class="p" style="margin-left: 20px;">
+					Discord: <a href="https://discord.gg/GfW5fQ9YKm" class="links">Click to Join!</a>
+				</p>
+			</div>
+		</div>
+		<h1 id="clock" class="roundborder specialclock">00:00</h1>
 		<div class="countdown">
 			<h1 class="countdown"><span id="D">00</span>d <span id="H">00</span>h <span id="M">00</span>m <span id="S">00</span>s</h1>
 		</div>
 
-        <center><img class="founderimg" src="imgs/1668607069602.png" alt="Founder img"/></center>
-        <center><h1 id="imgoriginaleh"><span id="imgoriginale" contenteditable="true">Una foto originale</span></h1></center>
+		<center><img class="founderimg" src="imgs/1668607069602.png" alt="Founder img"/></center>
+		<center><h1 id="imgoriginaleh"><span id="imgoriginale" contenteditable="true">Una foto originale</span></h1></center>
 
-        <div class="emptydivspace"></div>
-        
-        <table class="separator">
-            <tr>
-                <td class="separator-g"></td>
-                <td class="separator-g"></td>
-            </tr>
-        </table>
+		<div class="emptydivspace"></div>
+		
+		<table class="separator">
+			<tr>
+				<td class="separator-g"></td>
+				<td class="separator-g"></td>
+			</tr>
+		</table>
 
-        <h1><span class="tb">Something about me</span></h1>
-        <p class="p">
-            From: Italy<br/>
-            Name: Angelo<br/>
-            Phone Number: +39 328 149 <span class="numero">####</span><br/>
-            <!-- Non mi aspettavo questa bravura haha, ecco il mio numero per te che sei arrivato qui: +39 328 149 2299 (Non darlo a nessuno mi raccomando, è il tuo premio.) -->
-            Study at: ITIS MAX PLANCK<br/>
-            Class: 3AII
-        </p>
+		<h1><span class="tb">Something about me</span></h1>
+		<p class="p">
+			From: Italy<br/>
+			Name: Angelo<br/>
+			Phone Number: +39 328 149 <span class="numero">####</span><br/>
+			<!-- Non mi aspettavo questa bravura haha, ecco il mio numero per te che sei arrivato qui: +39 328 149 2299 (Non darlo a nessuno mi raccomando, è il tuo premio.) -->
+			Study at: ITIS MAX PLANCK<br/>
+			Class: 3AII
+		</p>
 
-        <table class="separator">
-            <tr>
-                <td class="separator-g"></td>
-                <td class="separator-g"></td>
-            </tr>
-        </table>
+		<table class="separator">
+			<tr>
+				<td class="separator-g"></td>
+				<td class="separator-g"></td>
+			</tr>
+		</table>
 
-        <h1><span class="tb">My Socials</span></h1>
-        <p class="p">
-            Instagram: @angelo_zillo<br/>
-            Discord: MisticG#4211<br/>
-            SnapChat: @misticg_twitch<br/>
-            Twitch: MisticG
-        </p>
+		<h1><span class="tb">My Socials</span></h1>
+		<p class="p">
+			Instagram: @angelo_zillo<br/>
+			Discord: MisticG#4211<br/>
+			SnapChat: @misticg_twitch<br/>
+			Twitch: MisticG
+		</p>
 
-        <table class="separator">
-            <tr>
-                <td class="separator-g"></td>
-                <td class="separator-g"></td>
-            </tr>
-        </table>
+		<table class="separator">
+			<tr>
+				<td class="separator-g"></td>
+				<td class="separator-g"></td>
+			</tr>
+		</table>
 
-        <h1><span class="tb">Events</span></h1>
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23616161&ctz=Europe%2FRome&showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=1&showDate=1&mode=AGENDA&title=MisticG&src=OTk3MTdjMDJhZTVlZDc2NGFkYjJjOThlZmI0MGE5MTE4NTczZDQzOTZjNzgxZmY5MTU5ZTcyN2NkOWU3ZDc1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border:solid 1px #777" width="500" height="300" frameborder="0" scrolling="no" class="calendar"></iframe>
+		<h1><span class="tb">Events</span></h1>
+		<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23616161&ctz=Europe%2FRome&showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=1&showDate=1&mode=AGENDA&title=MisticG&src=OTk3MTdjMDJhZTVlZDc2NGFkYjJjOThlZmI0MGE5MTE4NTczZDQzOTZjNzgxZmY5MTU5ZTcyN2NkOWU3ZDc1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border:solid 1px #777" width="500" height="300" frameborder="0" scrolling="no" class="calendar"></iframe>
 
-        <table class="separator">
-            <tr>
-                <td class="separator-g"></td>
-                <td class="separator-g"></td>
-            </tr>
-        </table>
+		<table class="separator">
+			<tr>
+				<td class="separator-g"></td>
+				<td class="separator-g"></td>
+			</tr>
+		</table>
 
-        <h1><span class="tb">Coding Experiences</span></h1>
+		<h1><span class="tb">Coding Experiences</span></h1>
 
-        <p class="p"><span class="codeinfos expert1">Hover This to awake</span></p>
+		<p class="p"><span class="codeinfos expert1">Hover This to awake</span></p>
 
-        <p class="p">
-            Python: <span class="codeinfos fluent1">Fluent</span><br/>
-            Java: <span class="codeinfos beginner1">Beginner</span><br/>
-            Pascal: <span class="codeinfos newbie1">Newbie</span><br/>
-            HTML: <span class="codeinfos advanced1">Advanced</span><br/>
-            CSS: <span class="codeinfos intermediate1">Intermediate</span><br/>
-            JavaScript: <span class="codeinfos beginner1">Beginner</span><br/>
-            C: <span class="codeinfos intermediate1">Intermediate</span><br/>
-            C++: <span class="codeinfos intermediate1">Intermediate</span><br/>
-            C#: <span class="codeinfos intermediate1">Intermediate</span><br/>
-            SQL: <span class="codeinfos newbie1">Newbie</span><br/>
-            PHP: <span class="codeinfos beginner1">Beginner</span><br/>
-            Go: <span class="codeinfos newbie1">Newbie</span><br/>
-            Kotlin: <span class="codeinfos newbie1">Newbie</span><br/>
-            Ruby: <span class="codeinfos beginner1">Beginner</span>
-        </p>
+		<p class="p">
+			Python: <span class="codeinfos fluent1">Fluent</span><br/>
+			Java: <span class="codeinfos beginner1">Beginner</span><br/>
+			Pascal: <span class="codeinfos newbie1">Newbie</span><br/>
+			HTML: <span class="codeinfos advanced1">Advanced</span><br/>
+			CSS: <span class="codeinfos intermediate1">Intermediate</span><br/>
+			JavaScript: <span class="codeinfos beginner1">Beginner</span><br/>
+			C: <span class="codeinfos intermediate1">Intermediate</span><br/>
+			C++: <span class="codeinfos intermediate1">Intermediate</span><br/>
+			C#: <span class="codeinfos intermediate1">Intermediate</span><br/>
+			SQL: <span class="codeinfos newbie1">Newbie</span><br/>
+			PHP: <span class="codeinfos beginner1">Beginner</span><br/>
+			Go: <span class="codeinfos newbie1">Newbie</span><br/>
+			Kotlin: <span class="codeinfos newbie1">Newbie</span><br/>
+			Ruby: <span class="codeinfos beginner1">Beginner</span>
+		</p>
 
-    </body>
+	</body>
 
 </html>
