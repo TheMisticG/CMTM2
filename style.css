@@ -254,22 +254,23 @@ p:hover {
     max-width: 20px;
 }
 
-#imgoriginaleh {
+.imgoriginaleh {
     transform: rotate(2deg);
+	width: 400px;
     transition: 500ms all ease-in-out;
 }
 
-#imgoriginaleh:hover {
+.imgoriginaleh:hover {
     transform: rotate(0deg);
 }
 
-#imgoriginale {
+.imgoriginale {
     font-size: 30px;
     color: white;
     transition: 500ms all ease-in-out;
 }
 
-#imgoriginale:hover {
+.imgoriginale:hover {
     transform: rotate(0deg);
     color: yellow;
     text-shadow: 0 0 10px yellow;
