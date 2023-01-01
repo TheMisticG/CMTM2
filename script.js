@@ -44,7 +44,7 @@ const countDown = setInterval(function() {
 	if (distance < 0) {
 		clearInterval(countDown);
 		document.getElementById("countdown").innerHTML = "BUON ANNO!";
-	};
+	}
 }, 500);
 
 function checkTime(i) {
