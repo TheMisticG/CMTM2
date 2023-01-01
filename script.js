@@ -23,7 +23,7 @@ function checkTime(i) {
     return i;
 }
 
-const countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
+const countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
 
 const countDown = setInterval(function() {
 	const now = new Date().getTime();
