@@ -1,0 +1,66 @@
+table, td, tr
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+#cv-image
+{
+	border-radius: 50%;
+	margin-right: 50px;
+}
+
+.centraldiv
+{
+	text-align: center;
+	margin: auto;
+}
+
+.h_flow
+{
+	font-size: 60px;
+	text-align: center;
+}
+
+.floatleft
+{
+	float: left;
+	display: block;
+}
+
+.stopfloat
+{
+	float: none;
+}
+
+.highlight, h2, h3
+{
+	color: #d84b4b;
+	transition: all 500ms ease-in-out;
+	border-left: 0px solid #d84b4b;
+}
+
+.highlight:hover, h2:hover, h3:hover
+{
+	color: #d84b4b;
+	border-left: #d84b4b 2px solid;
+	padding-left: 2px;
+}
+
+.separator
+{
+	height: 3px;
+	width: 90%;
+	background: #dae6f0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	transition: width 1s ease-in-out;
+}
+
+.separator:hover
+{
+	width: 80%;
+}
