@@ -415,3 +415,11 @@ p:hover {
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
+
+#link_cv {
+	color:white;
+}
+
+#link_cv:visited {
+	color:#d9ffb1;
+}
