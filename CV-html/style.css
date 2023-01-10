@@ -14,7 +14,7 @@ table, td, tr
 #cv-image
 {
 	border-radius: 50%;
-	border: 2px solid black;
+	border: 0px solid black;
 	margin-right: 10px;
 	height: 180px;
 	width: 180px;
