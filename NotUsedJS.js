@@ -55,10 +55,10 @@ function checkTime(i) {
 setInterval(function(){
 	var element = document.getElementById("contextnum");
 	if(element.innerHTML === "numero") {
-		element.innerHTML = "+39 3281492299";
+		element.innerHTML = "E' privato mi spiace";
 	}
 	if(element.innerHTML === "number") {
-		element.innerHTML = "+39 3281492299";
+		element.innerHTML = "Serious?";
 	}
 	if(element.innerHTML === "email") {
 		element.innerHTML = "angelocroitoru@gmail.com";
@@ -70,7 +70,7 @@ setInterval(function(){
 		element.innerHTML = "Try writing another thing...";
 	}
 	if(element.innerHTML === "whatsapp") {
-		element.innerHTML = "https://wa.me/393281492299";
+		element.innerHTML = "https://wa.me/ImJoking";
 	}
 	if(element.innerHTML === "birthday") {
 		element.innerHTML = "29/07/2005 | 06:00";
