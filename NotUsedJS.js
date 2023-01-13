@@ -69,4 +69,10 @@ setInterval(function(){
 	if(element.innerHTML === "easteregg") {
 		element.innerHTML = "Try writing another thing...";
 	}
+	if(element.innerHTML === "whatsapp") {
+		element.innerHTML = "https://wa.me/393281492299";
+	}
+	if(element.innerHTML === "birthday") {
+		element.innerHTML = "29/07/2005 | 06:00";
+	}
 }, 500);
