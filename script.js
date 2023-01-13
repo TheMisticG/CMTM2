@@ -51,3 +51,13 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 };
+
+setInterval(function(){
+	var element = document.getElementById("contextnum");
+	if(element.innerHTML === "numero") {
+		element.innerHTML = "+39 3281492299";
+	}
+	if(element.innerHTML === "number") {
+		element.innerHTML = "+39 3281492299";
+	}
+}, 500);
