@@ -60,4 +60,13 @@ setInterval(function(){
 	if(element.innerHTML === "number") {
 		element.innerHTML = "+39 3281492299";
 	}
+	if(element.innerHTML === "email") {
+		element.innerHTML = "angelocroitoru@gmail.com";
+	}
+	if(element.innerHTML === "discord") {
+		element.innerHTML = "Check the link up there!";
+	}
+	if(element.innerHTML === "easteregg") {
+		element.innerHTML = "Try writing another thing...";
+	}
 }, 500);
