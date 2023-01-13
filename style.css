@@ -3,396 +3,410 @@
 body.js-stop-transition * { transition:none !important; }
 
 @keyframes firsttitle {
-    0% {width: 95%;}
-    50% {
-        border-color: #c800ff;
-        background-color: #620d79;
-    }
-    100% {
-        width: 85%;
-        border-color: #fbff00;
-        background-color: #636300;
-    }
+	0% {width: 95%;}
+	50% {
+		border-color: #c800ff;
+		background-color: #620d79;
+	}
+	100% {
+		width: 85%;
+		border-color: #fbff00;
+		background-color: #636300;
+	}
 }
 
 @keyframes founderimgan {
-    0% {
-        transform: rotate(10deg);
-    }
-    100% {
-        transform: rotate(-10deg);
-    }
+	0% {
+		transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(-10deg);
+	}
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-    background: #323232;
+	width: 15px;
+	background: #323232;
 }
 
 ::-webkit-scrollbar-track {
-    background: #323232;
+	background: #323232;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #575757;
-    border-radius: 10px;
+	background: #575757;
+	border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #bb00ff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 1px #bb00ff;
+	background: #bb00ff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 1px #bb00ff;
 }
 
 body{
-    /*background-color: #353535;*/
-    background: linear-gradient(-45deg, #0e0e0e, #353535);
-    color: white;
-    margin-left: 2%;
-    margin-right: 2%;
+	/*background-color: #353535;*/
+	background: linear-gradient(-45deg, #0e0e0e, #353535);
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .prevent-select {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 }
 
 h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
 
 h2 {
-    font-size: 35px;
+	font-size: 35px;
 }
 
 h3 {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .magicblur {
-    filter: blur(5px);
-    transition: 500ms all ease-in-out;
+	filter: blur(5px);
+	transition: 500ms all ease-in-out;
 }
 
 .magicblur:hover {
-    filter: blur(0px);
-    transform: rotate(2deg);
+	filter: blur(0px);
+	transform: rotate(2deg);
 }
 
 .magicborder {
-    border-color: #575757;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 98%;
-    transition: 250ms all ease-in-out;
-    animation: firsttitle infinite alternate 5s ease-in-out;
+	border-color: #575757;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 98%;
+	transition: 250ms all ease-in-out;
+	animation: firsttitle infinite alternate 5s ease-in-out;
 }
 
 .founderimg {
-    margin: auto;
-    width: 85%;
-    height: 85%;
-    margin-top: 0px;
-    border: solid #5b5b5b;
-    border-width: 6px;
-    border-radius: 100%;
-    max-width: 800px;
-    max-height: 800px;
-    transition-property: all;
-    transition-duration: 250ms;
-    transition-timing-function: ease-out;
-    animation: founderimgan alternate infinite 10s ease-in-out;
+	margin: auto;
+	width: 85%;
+	height: 85%;
+	margin-top: 0px;
+	border: solid #5b5b5b;
+	border-width: 6px;
+	border-radius: 100%;
+	max-width: 800px;
+	max-height: 800px;
+	transition-property: all;
+	transition-duration: 250ms;
+	transition-timing-function: ease-out;
+	animation: founderimgan alternate infinite 10s ease-in-out;
 }
 
 .founderimg:hover {
-    border-color: orange;
-    box-shadow: 
-        0px 0px 50px 5px orange,
-        inset 0 0 2px 1px orange;
+	border-color: orange;
+	box-shadow: 
+		0px 0px 50px 5px orange,
+		inset 0 0 2px 1px orange;
 }
 
 .founderimgclicked {
-    border-color: lime;
-    box-shadow: 0 0 50px 5px lime;
+	border-color: lime;
+	box-shadow: 0 0 50px 5px lime;
 }
 
 .tb {
-    border-left: 4px solid #977231;
-    padding-left: 10px;
-    transition: 250ms all ease-out;
+	border-left: 4px solid #977231;
+	padding-left: 10px;
+	transition: 250ms all ease-out;
 }
 
 .tb:hover {
-    border-left: 2px solid #8cadff;
-    text-shadow: 0 0 20px white;
+	border-left: 2px solid #8cadff;
+	text-shadow: 0 0 20px white;
 }
 
 .roundborder {
-    border: 2px solid #575757;
-    border-radius: 20px;
-    padding: 10px;
-    text-align: center;
+	border: 2px solid #575757;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
 }
 
 .specialblueborder {
-    border-color: #6c6cff;
-    border-width: 3px;
-    width: 80%;
-    max-width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    transition-property: all;
-    transition-duration: 500ms;
-    transition-timing-function: ease-out;
+	border-color: #6c6cff;
+	border-width: 3px;
+	width: 80%;
+	max-width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	transition-property: all;
+	transition-duration: 500ms;
+	transition-timing-function: ease-out;
 }
 
 .specialblueborder:hover {
-    background-color: #daecff;
-    border-color: #daecff;
-    color: black;
-    width: 90%;
-    box-shadow: 0px 0px 40px 2px #daecff;
+	background-color: #daecff;
+	border-color: #daecff;
+	color: black;
+	width: 90%;
+	box-shadow: 0px 0px 40px 2px #daecff;
 }
 
 .specialclock {
-    border-color: #6c6cff;
-    border-width: 3px;
-    width: 140px;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    will-change: all;
-    transition: all 2s ease-in-out;
-    transition-delay: 10s;
+	border-color: #6c6cff;
+	border-width: 3px;
+	width: 140px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+	will-change: all;
+	transition: all 2s ease-in-out;
+	transition-delay: 10s;
 }
 
 .specialclock:hover {
-    background-color: #a1ffe6;
-    border-color: #a1ffe6;
-    color: black;
-    width: calc(140px + 5%);
-    box-shadow: 0px 0px 40px 2px #a1ffe6;
-    font-size: 60px;
-    transition: all 500ms ease-in-out;
+	background-color: #a1ffe6;
+	border-color: #a1ffe6;
+	color: black;
+	width: calc(140px + 5%);
+	box-shadow: 0px 0px 40px 2px #a1ffe6;
+	font-size: 60px;
+	transition: all 500ms ease-in-out;
 }
 
 .p {
-    border-left: 4px solid #335d88;
-    padding-left: 5px;
-    font-size: 20px;
-    border-radius: 8px;
-    transition: 500ms all ease-in-out;
+	border-left: 4px solid #335d88;
+	padding-left: 5px;
+	font-size: 20px;
+	border-radius: 8px;
+	transition: 500ms all ease-in-out;
 }
 
 p:hover {
-    border-color: #f99eff;
+	border-color: #f99eff;
 }
 
 .div1 {
-    border-bottom: 2px solid #ffffff;
-    width: 50%;
-    height: 10px;
-    margin: auto;
-    border-radius: 40px;
-    transition: 250ms all ease-in-out;
-    color: white;
-    text-align: center;
+	border-bottom: 2px solid #ffffff;
+	width: 50%;
+	height: 10px;
+	margin: auto;
+	border-radius: 40px;
+	transition: 250ms all ease-in-out;
+	color: white;
+	text-align: center;
 }
 
 .sd {
-    transform: translateY(-10px);
+	transform: translateY(-10px);
 }
 
 .div1:hover {
-    transform: translateY(5px);
-    border-width: 4px;
+	transform: translateY(5px);
+	border-width: 4px;
 }
 
 .emptydivspace {
-    height: 20px;
+	height: 20px;
 }
 
 .links {
-    color: #9effe8;
-    transition: 100ms all ease-in-out;
+	color: #9effe8;
+	transition: 100ms all ease-in-out;
 }
 
 .links:hover {
-    color: #fbff00;
+	color: #fbff00;
 }
 
 .discord-div {
-    border: 2px solid gray;
-    border-radius: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: rgb(126, 176, 255);
-    max-height: 200px;
-    width: 400px;
-    max-width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 250ms all ease-in-out;
+	border: 2px solid gray;
+	border-radius: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: rgb(126, 176, 255);
+	max-height: 200px;
+	width: 400px;
+	max-width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 250ms all ease-in-out;
 }
 
 .discord-div:hover {
-    width: 500px;
-    background-color: #2a2a5c;
-    border-color: #6c6cff;
-    box-shadow: 0px 0px 30px 1px #6c6cff;
+	width: 500px;
+	background-color: #2a2a5c;
+	border-color: #6c6cff;
+	box-shadow: 0px 0px 30px 1px #6c6cff;
 }
 
 .discord-div-img {
-    max-height: 20px;
-    max-width: 20px;
+	max-height: 20px;
+	max-width: 20px;
 }
 
 .imgoriginaleh {
-    transform: rotate(2deg);
+	transform: rotate(2deg);
 	width: 400px;
-    transition: 500ms all ease-in-out;
+	transition: 500ms all ease-in-out;
 }
 
 .imgoriginaleh:hover {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 
 .imgoriginale {
-    font-size: 30px;
-    color: white;
-    transition: 500ms all ease-in-out;
+	font-size: 30px;
+	color: white;
+	transition: 500ms all ease-in-out;
 }
 
 .imgoriginale:hover {
-    transform: rotate(0deg);
-    color: yellow;
-    text-shadow: 0 0 10px yellow;
+	transform: rotate(0deg);
+	color: yellow;
+	text-shadow: 0 0 10px yellow;
 }
 
 .numero {
-    color: #353535;
-    border-radius: 10px;
-    padding: 4px;
-    transition: 500ms all ease-in-out;
+	color: #353535;
+	border-radius: 10px;
+	padding: 4px;
+	transition: 500ms all ease-in-out;
 }
 
 .numero:hover {
-    color: lime;
-    text-shadow: 0 0 10px lime;
+	color: lime;
+	text-shadow: 0 0 10px lime;
 }
 
 .finaltable {
-    width: 900px;
-    max-width: 98%;
-    height: 80px;
-    margin: auto;
-    border-spacing: 5px;
+	width: 900px;
+	max-width: 98%;
+	height: 80px;
+	margin: auto;
+	border-spacing: 5px;
 }
 
 .finaltable-td-g {
-    width: 50px;
-    border: 2px solid #ffffff;
-    border-radius: 50px;
-    will-change: all;
-    transition: all 10s ease-in-out;
-    transition-delay: 5s;
+	width: 50px;
+	border: 2px solid #ffffff;
+	border-radius: 50px;
+	will-change: all;
+	transition: all 10s ease-in-out;
+	transition-delay: 5s;
 }
 
 .finaltable-td-g:hover {
-    background-color: #0b0036;
-    width: 300px;
-    transition: all 500ms ease-in-out;
-    box-shadow:
-        -10px 0px 40px 2px #3300ff,
-        10px 0px 40px 2px magenta,
-        inset 8px -2px 40px 2px #3300ff,
-        inset -8px 2px 40px 2px magenta;
+	background-color: #0b0036;
+	width: 300px;
+	transition: all 500ms ease-in-out;
+	box-shadow:
+		-10px 0px 40px 2px #3300ff,
+		10px 0px 40px 2px magenta,
+		inset 8px -2px 40px 2px #3300ff,
+		inset -8px 2px 40px 2px magenta;
 }
 
 .separator {
-    width: 900px;
-    max-width: 98%;
-    height: 20px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	width: 900px;
+	max-width: 98%;
+	height: 20px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .separator-g {
-    width: 50px;
-    border: 2px solid #ffffff;
-    border-radius: 50px;
-    will-change: all;
-    transition: all 10s ease-in-out;
-    transition-delay: 1s;
+	width: 50px;
+	border: 2px solid #ffffff;
+	border-radius: 50px;
+	will-change: all;
+	transition: all 10s ease-in-out;
+	transition-delay: 1s;
 }
 
 .separator-g:hover {
-    background-color: #0b0036;
-    width: 300px;
-    transition: all 500ms ease-in-out;
-    box-shadow:
-        -10px 0px 40px 2px #3300ff,
-        10px 0px 40px 2px magenta,
-        inset -8px -2px 40px 2px #3300ff,
-        inset 8px 2px 40px 2px magenta;
+	background-color: #0b0036;
+	width: 300px;
+	transition: all 500ms ease-in-out;
+	box-shadow:
+		-10px 0px 40px 2px #3300ff,
+		10px 0px 40px 2px magenta,
+		inset -8px -2px 40px 2px #3300ff,
+		inset 8px 2px 40px 2px magenta;
 }
 
 .calendar {
-    max-width: 90%;
-    max-height: 400px;
+	max-width: 90%;
+	max-height: 400px;
 }
 
 /* Coding Experiences */
 
 .codeinfos {
-    color: #828282;
-    will-change: all;
-    transition: 5s all ease-in-out;
-    transition-delay: 10s;
+	color: #828282;
+	will-change: all;
+	transition: 5s all ease-in-out;
+	transition-delay: 10s;
 }
 
 .newbie1:hover {
-    color: #ff0000;
-    text-shadow: 0 0 10px #ff0000;
-    transition: 100ms all ease-in-out;
+	color: #ff0000;
+	text-shadow: 0 0 10px #ff0000;
+	transition: 100ms all ease-in-out;
+}
+
+.newbie-to-hover:hover {
+	transition: 100ms ease-in-out;
+	color: #d7d7d7;
+}
+
+.newbie-to-color {
+	color: #828282;
+}
+
+.newbie-to-hover:hover ~ .newbie-to-color {
+	color: #ff0000;
+	text-shadow: 0 0 10px #ff0000;
 }
 
 .beginner1:hover {
-    color: #ff5e00;
-    text-shadow: 0 0 10px #ff5e00;
-    transition: 100ms all ease-in-out;
+	color: #ff5e00;
+	text-shadow: 0 0 10px #ff5e00;
+	transition: 100ms all ease-in-out;
 }
 
 .intermediate1:hover {
-    color: #ffcc00;
-    text-shadow: 0 0 10px #ffcc00;
-    transition: 100ms all ease-in-out;
+	color: #ffcc00;
+	text-shadow: 0 0 10px #ffcc00;
+	transition: 100ms all ease-in-out;
 }
 
-.advanced1:hover {
-    color: #ddff00;
-    text-shadow: 0 0 10px #ddff00;
-    transition: 100ms all ease-in-out;
+.advanced1:hover ~ .advanced1 {
+	color: #ddff00;
+	text-shadow: 0 0 10px #ddff00;
+	transition: 100ms all ease-in-out;
 }
 
 .fluent1:hover {
-    color: #6cff73;
-    text-shadow: 0 0 10px #6cff73;
-    transition: 100ms all ease-in-out;
+	color: #6cff73;
+	text-shadow: 0 0 10px #6cff73;
+	transition: 100ms all ease-in-out;
 }
 
 .expert1:hover {
-    color: #00ffea;
-    text-shadow: 0 0 10px #00ffea;
-    transition: 100ms all ease-in-out;
+	color: #00ffea;
+	text-shadow: 0 0 10px #00ffea;
+	transition: 100ms all ease-in-out;
 }
 
 /* Finish of "Coding Experiences" */
