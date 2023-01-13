@@ -75,4 +75,7 @@ setInterval(function(){
 	if(element.innerHTML === "birthday") {
 		element.innerHTML = "29/07/2005 | 06:00";
 	}
+	if(element.innerHTML === "password") {
+		element.innerHTML = "Are you serious?";
+	}
 }, 500);
