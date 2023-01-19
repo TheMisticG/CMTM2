@@ -391,7 +391,7 @@ p:hover {
 	transition: 100ms all ease-in-out;
 }
 
-.advanced1:hover ~ .advanced1 {
+.advanced1:hover{
 	color: #ddff00;
 	text-shadow: 0 0 10px #ddff00;
 	transition: 100ms all ease-in-out;
