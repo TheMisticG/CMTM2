@@ -106,10 +106,10 @@ h3 {
 }
 
 .founderimg:hover {
-	border-color: orange;
+	border-color: #52b1ff;
 	box-shadow: 
-		0px 0px 50px 5px orange,
-		inset 0 0 2px 1px orange;
+		0px 0px 50px 5px #52b1ff,
+		inset 0 0 2px 1px #52b1ff;
 }
 
 .founderimgclicked {
