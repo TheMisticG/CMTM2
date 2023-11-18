@@ -91,14 +91,14 @@ h3 {
 
 .founderimg {
 	margin: auto;
-	width: 85%;
-	height: 85%;
+	width: 65%;
+	height: 65%;
 	margin-top: 0px;
 	border: solid #5b5b5b;
 	border-width: 6px;
 	border-radius: 100%;
-	max-width: 800px;
-	max-height: 800px;
+	max-width: 500px;
+	max-height: 500px;
 	transition-property: all;
 	transition-duration: 250ms;
 	transition-timing-function: ease-out;
